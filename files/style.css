@@ -7,7 +7,6 @@
   --line: #e9ecee;
   --line-strong: #dce2e5;
   --soft: #f7f9fa;
-  --accent-soft: #eef5f7;
   --featured: #f7fafc;
   --oral: #a14e28;
   --font: -apple-system, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, "PingFang SC", "Microsoft YaHei", sans-serif;
@@ -238,30 +237,6 @@ main {
   background: var(--soft);
   border: 1px solid var(--line);
   object-fit: contain;
-}
-
-.pub-thumb-placeholder {
-  display: grid;
-  padding: 18px;
-  align-content: center;
-  color: #315e6d;
-  background: var(--accent-soft);
-  border-color: #d7e5e9;
-  font-weight: 750;
-  line-height: 1.25;
-}
-
-.pub-thumb-placeholder span {
-  overflow-wrap: anywhere;
-}
-
-.pub-thumb-placeholder small {
-  margin-top: 7px;
-  color: #71858d;
-  font-size: 0.7rem;
-  font-weight: 550;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
 }
 
 .pub-content {
