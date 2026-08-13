@@ -1,1 +1,3 @@
-#### [HomePage of Zhiliang Peng](https://pengzhiliang.github.io/ZhiliangPeng.htm).
+# Zhiliang Peng
+
+Personal academic website: [pengzhiliang.github.io](https://pengzhiliang.github.io/)
