@@ -157,6 +157,14 @@ h2 {
   border-bottom: 0;
 }
 
+.publication-featured {
+  margin: 9px 0 12px;
+  padding: 20px;
+  background: #f6f9fd;
+  border: 1px solid #cbd8e7;
+  border-left: 4px solid var(--heading);
+}
+
 .paper-image,
 .paper-placeholder {
   display: block;
@@ -225,6 +233,20 @@ h2 {
   line-height: 1.3;
 }
 
+.publication-heading {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px 10px;
+  align-items: baseline;
+  margin-bottom: 5px;
+}
+
+.publication-heading h3 {
+  flex: 1 1 360px;
+  margin: 0;
+  font-size: 1.08rem;
+}
+
 .authors,
 .venue,
 .publication-links {
@@ -244,8 +266,7 @@ h2 {
 
 .honor {
   display: inline-block;
-  margin-left: 0.35em;
-  padding: 0 5px;
+  padding: 1px 7px;
   color: #8b4b22;
   background: #fff6e8;
   border: 1px solid #ead5b8;
@@ -254,6 +275,34 @@ h2 {
   font-style: normal;
   font-weight: 700;
   vertical-align: 0.08em;
+}
+
+.repo-achievements {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px 12px;
+  align-items: baseline;
+  margin: 8px 0 6px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 0.82rem;
+}
+
+.repo-achievements a,
+.repo-achievements span {
+  color: #405d7e;
+}
+
+.repo-achievements a {
+  font-weight: 600;
+}
+
+.repo-achievements strong {
+  color: #263f5d;
+}
+
+.repo-achievements small {
+  color: var(--muted);
+  font-size: 0.75rem;
 }
 
 .publication-links {
@@ -364,6 +413,11 @@ footer p {
     gap: 11px;
     align-items: start;
     padding: 18px 0;
+  }
+
+  .publication-featured {
+    margin-inline: 0;
+    padding: 16px;
   }
 
   .paper-image,
